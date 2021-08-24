@@ -1,0 +1,8 @@
+{
+  "name": "bin2dec",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/julio-lemos/bin2dec.git",
+  "author": "Julio Lemos <juliolemos_@outlook.com>",
+  "license": "MIT"
+}
