@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "https://github.com/julio-lemos/bin2dec.git",
   "author": "Julio Lemos <juliolemos_@outlook.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^13.2.2"
+  }
 }
