@@ -6,9 +6,10 @@
   "author": "Julio Lemos <juliolemos_@outlook.com>",
   "license": "MIT",
   "scripts": {
-    "start": "electron ./src"
+    "start": "electron ./src/main.js"
   },
   "devDependencies": {
-    "electron": "^13.2.2"
+    "electron": "^13.2.2",
+    "prettier": "^2.3.2"
   }
 }
