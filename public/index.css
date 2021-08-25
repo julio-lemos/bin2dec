@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #0DA590;
+  height: 90vh
+}
+
+h1 {
+  margin-left: 10px;
+  font-weight: 600;
+}
+
+.box-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputs {
+  outline: none;
+  height: 40px;
+  margin: 5px 10px 3px 10px;
+  border-radius: 5px;
+  border: 2px solid #E2E8F0;
+  background-color: #E2E8F0;
+}
+
+.inputs:focus {
+  border: 2px solid #1A365D;
+  transition: all 0.2s;
+}
+
+.btnConvert {
+  background-color: #1A365D;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 25px 10px 0px 10px;
+}

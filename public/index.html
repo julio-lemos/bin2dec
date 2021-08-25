@@ -5,12 +5,23 @@
     <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
     <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
-    <title>Hello World!</title>
+    <title>bin2dec</title>
+
+    <link rel="stylesheet" type="text/css" href="index.css" />
   </head>
   <body>
-    <h1>Hello World!</h1>
-    Estamos utilizando Node.js <span id="node-version"></span>,
-    Chromium <span id="chrome-version"></span>,
-    e Electron <span id="electron-version"></span>.
+    <div>
+      <img width="100%" src="../src/assets//banner.jpg" alt="logo">
+    </div>
+
+    <div class="box-input">
+      <input class="inputs" maxlength="8" id="bin" type="number" placeholder="Número em binário">
+      <input class="inputs" disabled id="number" placeholder="Número em decimal">
+
+      <button class="btnConvert" id="myButton" type="button">Converter</button>
+    </div>
+    
+
+    <script src="../src/renderer.js"></script>
   </body>
 </html>
